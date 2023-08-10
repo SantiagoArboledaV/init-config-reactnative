@@ -7,6 +7,7 @@ export function TopTabs() {
   return (
     <Tab.Navigator>
       <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Chat" component={Home} />
     </Tab.Navigator>
   );
 }
