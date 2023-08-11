@@ -10,7 +10,7 @@ import { Menu } from './src/navigator/Drawer';
 const App = () => {
   return (
     <NavigationContainer>
-      <Menu />
+      <TopTabs />
     </NavigationContainer>
   );
 };
